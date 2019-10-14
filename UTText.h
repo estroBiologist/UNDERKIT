@@ -113,7 +113,7 @@ public:
 	void addEffect(TextEffect*effect);
 	
 	UTText();
-	UTText(const sf::Font& font, const sf::String& string);
+	UTText(const sf::Font& font, const sf::String& string = "");
 	void setFont(const sf::Font& font);
 	void setString(const sf::String& string);
 	void setCharacterSize(unsigned int size);

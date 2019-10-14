@@ -57,7 +57,7 @@
     <ClCompile Include="GameStateManager.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="GameState_Fight.cpp">
+    <ClCompile Include="GameStateFight.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
@@ -83,7 +83,10 @@
     <ClInclude Include="GameStateManager.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="GameState_Fight.h">
+    <ClInclude Include="GlobalResources.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GameStateFight.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>
