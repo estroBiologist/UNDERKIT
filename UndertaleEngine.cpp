@@ -139,10 +139,8 @@ int main() {
 				}
 			}
 			if (event.type == Event::MouseButtonPressed)
-#ifdef _DEBUG
 				if (event.mouseButton.button == Mouse::Left)
 					bullet_box.setOrigin(Vector2f(Mouse::getPosition(window)));
-#endif
 		}
 
 		if (frameCounterClock.getElapsedTime().asSeconds() >= .25f) {
